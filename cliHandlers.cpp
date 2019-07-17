@@ -4,9 +4,6 @@
     #include "SimpleSRV.h"
     #include "Globals.h"                // in this local directory
     
-// --------------- allocation of classes used only by this module -------------------
-  
-    
 // ------ References to classes allocated elsewhere but needed here -----------------
   
     void help( int n, char *args[] )

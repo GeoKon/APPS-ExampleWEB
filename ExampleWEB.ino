@@ -23,13 +23,15 @@
     CLI cli;
     EXE exe;
     EEP eep;
-   ESP8266WebServer server(80);    
+    ESP8266WebServer server(80);    
+
+    BUF buffer(1024);           // cli buffer used by cliCallbacks()
 
 // ------ Forward References (located in this module --------------------------
 
     void initEEParms();
 
-    BUF buffer(1024);           // cli buffer used by cliCallbacks()
+    
     
 // ----------------------------- Main Setup -----------------------------------
 

@@ -4,7 +4,7 @@
  * ----------------------------------------------------------------------------------
  */
  
-#include "externIO.h"       // global externals of cpu,...,server            
+#include "externIO.h"       // global externals of cpu,...,eep            
 
 // ---------------------- exported functions defined in Global.cpp ------------------
 
