@@ -48,7 +48,7 @@ void setup()
 
     if( myp.wifiOK == STA_MODE )
     {
-        setupSTA();
+        setupWiFi();
         srvCallbacks( server, Landing_STA_Page );             // standard WEB callbacks. "staLanding" is /. HTML page
     }
     if( myp.wifiOK == AP_MODE )
